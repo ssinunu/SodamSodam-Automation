@@ -15,17 +15,17 @@ driver.implicitly_wait(3)
 driver.get(url='https://www.coupang.com/')
 time.sleep(1)
 
-# 쿠팡 로그인 버튼 클릭
-login_button = driver.find_elements(By.XPATH, '//*[@id="login"]/a')[0]
-login_button.click()
+# # 쿠팡 로그인 버튼 클릭
+# login_button = driver.find_elements(By.XPATH, '//*[@id="login"]/a')[0]
+# login_button.click()
 
-# 쿠팡 로그인
-driver.find_elements(By.XPATH, '//*[@id="login-email-input"]')[0].send_keys("")
-time.sleep(1)
-driver.find_elements(By.XPATH, '//*[@id="login-password-input"]')[0].send_keys("")
-time.sleep(1)
-driver.find_elements(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div[1]/form/div[5]/button')[0].click()
-time.sleep(5)
+# # 쿠팡 로그인
+# driver.find_elements(By.XPATH, '//*[@id="login-email-input"]')[0].send_keys("")
+# time.sleep(1)
+# driver.find_elements(By.XPATH, '//*[@id="login-password-input"]')[0].send_keys("")
+# time.sleep(1)
+# driver.find_elements(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div[1]/form/div[5]/button')[0].click()
+# time.sleep(5)
 
 # 장바구니 이동
 cart_button = driver.find_elements(By.XPATH, '//*[@id="header"]/section/div[1]/ul/li[2]/a')[0]
