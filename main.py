@@ -7,7 +7,7 @@ import time
 # 셀레니움 옵션
 option = Options()
 option.add_experimental_option("debuggerAddress", "127.0.0.1:9222") ## 디버깅 옵션 추가
-service = Service()
+service = Service(executable_path='./chromedriver.exe')
 driver = webdriver.Chrome(service=service, options=option)
 driver.implicitly_wait(3)
 
