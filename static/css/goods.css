@@ -581,7 +581,7 @@
 }
 
 .TopBar {
-	background-color: red; /* 배경색을 빨간색으로 지정 */
+	background-color: white; /* 배경색을 빨간색으로 지정 */
 	position: fixed; /* 상단바를 화면에 고정 */
 	top: 0; /* 화면 맨 위에 위치 */
 	z-index: 1000; /* 다른 요소 위에 표시되도록 z-index 설정 */

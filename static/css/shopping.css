@@ -114,13 +114,13 @@
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
 	text-align: center;
-    display: flex; /* 텍스트를 수직 가운데 정렬하기 위해 Flexbox를 사용합니다. */
+    display: flex; /* 텍스트를 수직 가운데 정렬하기 위해 Flexbox. */
     justify-content: center; /* 수직 가운데 정렬 */
     align-items: center; /* 수평 가운데 정렬 */
     color: white;
     font-size: 30px;
     object-fit: cover;
-    border: none; /* 테두리를 없앱니다. */
+    border: none; 
 }
 
 .MyCart {
