@@ -15,6 +15,7 @@
 // 음성 인식을 초기화하는 함수
     function initializeSpeechRecognition() {
      recognition = new webkitSpeechRecognition(); // 브라우저 호환성을 위해 webkitSpeechRecognition 사용
+     recognition.lang = 'ko-KR'; // 언어 설정을 한국어로 변경
  
     recognition.onresult = function(event) {
         const result = event.results[0][0].transcript;
